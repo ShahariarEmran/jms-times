@@ -5,7 +5,7 @@ const NewsSectionB = () => {
   return (
     <>
       <div className="container-fluid">
-        <div className="row">
+        <div className="row g-4">
           <div className="col-md-10">
             <div className="row row-cols-md-4 g-4">
               <div>
@@ -34,6 +34,7 @@ const NewsSectionB = () => {
               </div>
             </div>
           </div>
+
           <div className="col-md-2">
             <div>
               <NewsCardBody />
@@ -45,7 +46,7 @@ const NewsSectionB = () => {
               <NewsCardBody />
             </div>
 
-            <div className="bg-success col-md-12">
+            <div className="">
               <img
                 src="https://via.placeholder.com/100x100?text=Square+Ads"
                 className="img-fluid w-100 "

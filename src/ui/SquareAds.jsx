@@ -3,7 +3,7 @@ const SquareAds = () => {
     <>
       <img
         src="https://via.placeholder.com/80x60?text=Square+Ads"
-        className="card-img-top"
+        className="img-fluid"
         alt="..."
       />
     </>
