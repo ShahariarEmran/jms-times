@@ -1,6 +1,6 @@
 const Ads = () => {
   return (
-    <section className="d-flex justify-content-center my-2">
+    <section className="d-flex justify-content-center my-5">
       <div>
         <img
           className="img-fluid"

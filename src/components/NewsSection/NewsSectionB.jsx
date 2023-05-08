@@ -1,7 +1,7 @@
 import NewsCard from "../../ui/NewsCard";
 import NewsCardBody from "../../ui/NewsCardBody";
 
-const NewsSection = () => {
+const NewsSectionB = () => {
   return (
     <>
       <div className="container-fluid">
@@ -59,4 +59,4 @@ const NewsSection = () => {
   );
 };
 
-export default NewsSection;
+export default NewsSectionB;

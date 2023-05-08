@@ -1,5 +1,6 @@
 import HeroSection from "../components/HeroSection/HeroSection";
-import NewsSection from "../components/NewsSection/NewsSection";
+import NewsSectionA from "../components/NewsSection/NewsSectionA";
+import NewsSectionB from "../components/NewsSection/NewsSectionB";
 import Ads from "../ui/Ads";
 
 const Home = () => {
@@ -8,12 +9,10 @@ const Home = () => {
       <Ads />
       <HeroSection />
       <Ads />
-      <NewsSection />
+      <NewsSectionA />
       <Ads />
-      {/* <HeroSection />
+      <NewsSectionB />
       <Ads />
-      <HeroSection />
-      <Ads /> */}
     </>
   );
 };
