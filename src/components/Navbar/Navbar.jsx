@@ -3,27 +3,31 @@ import { AiFillHome } from "react-icons/ai";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div className="container-fluid">
+      <div className="container">
+        <a className="navbar-brand" href="#">
+          JMS Times
+        </a>
         <button
           className="navbar-toggler"
           type="button"
-          data-mdb-toggle="collapse"
-          data-mdb-target="#navbarCenteredExample"
-          aria-controls="navbarCenteredExample"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i className="fas fa-bars"></i>
+          <span className="navbar-toggler-icon"></span>
         </button>
-
-        <div
-          className="collapse navbar-collapse justify-content-center"
-          id="navbarCenteredExample"
-        >
-          <ul className="navbar-nav mb-2 mb-lg-0">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
                 <AiFillHome size={23} />
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Home
               </a>
             </li>
             <li className="nav-item">
