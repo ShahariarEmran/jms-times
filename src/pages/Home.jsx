@@ -1,4 +1,5 @@
 import HeroSection from "../components/HeroSection/HeroSection";
+import NewsSection from "../components/NewsSection/NewsSection";
 import Ads from "../ui/Ads";
 
 const Home = () => {
@@ -6,10 +7,10 @@ const Home = () => {
     <>
       <Ads />
       <HeroSection />
-      {/* <Ads />
-      <HeroSection />
       <Ads />
-      <HeroSection />
+      <NewsSection />
+      <Ads />
+      {/* <HeroSection />
       <Ads />
       <HeroSection />
       <Ads /> */}
