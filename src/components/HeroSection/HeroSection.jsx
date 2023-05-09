@@ -11,7 +11,6 @@ const HeroSection = () => {
             <div className="row row-cols-md-4 g-4">
               <div className="col-md-9">
                 <HeadlineNewsSection />
-                {/* <NewsCard /> */}
               </div>
               <div>
                 <NewsCard />

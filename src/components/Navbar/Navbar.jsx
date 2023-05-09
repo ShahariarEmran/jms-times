@@ -21,18 +21,18 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/">
                 <AiFillHome size={23} />
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                খবর
+              <a className="nav-link" href="/user">
+                Reporter
               </a>
             </li>
             <li className="nav-item">
