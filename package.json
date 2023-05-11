@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "developer": "Taib Islam Dipu",
+  "description": "News portal website",
   "scripts": {
     "dev": "vite",
     "start": "npm run dev",
