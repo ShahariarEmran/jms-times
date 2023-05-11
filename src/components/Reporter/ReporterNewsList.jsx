@@ -13,8 +13,8 @@ const ReporterNewsList = () => {
         <div className="col">
           <img
             src="https://via.placeholder.com/100x50?text=Image"
-            className="img-fluid w-100 "
-            alt="..."
+            className="img-fluid w-100"
+            alt="Image"
           />
         </div>
       </div>
